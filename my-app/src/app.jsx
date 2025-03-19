@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 
+
+
 const Home = () => (
   <section className="hero">
     <div className="hero-content">
