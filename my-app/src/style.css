@@ -115,4 +115,28 @@ body {
   
   /* Contact */
   .contact-buttons {
-    margin-top:
+    margin-top: 20px;
+  }
+  
+  .contact-buttons button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-buttons button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+  }
+  
