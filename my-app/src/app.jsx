@@ -9,13 +9,12 @@ import Skills from "./Components/Skills/Skills";
 const App = () => {
   return (
     <Router>
-    
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Skills" element={<Skills />} />
       </Routes>
     </Router>
   );

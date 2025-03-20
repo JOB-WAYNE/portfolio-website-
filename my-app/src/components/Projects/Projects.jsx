@@ -1,5 +1,5 @@
 import React from "react"; // Removed unnecessary useState import
-import "./Projects.css"; // Ensure this file exists
+import "./Project.css"; // Ensure this file exists
 
 const Projects = () => {
   return (

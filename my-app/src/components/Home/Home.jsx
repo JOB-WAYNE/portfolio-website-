@@ -1,4 +1,4 @@
-import React from "react"; // Removed unused useState & useNavigate imports
+import React from "react";
 import "./Home.css";
 
 const Home = () => (
@@ -17,18 +17,4 @@ const Home = () => (
   </section>
 );
 
-const App = () => (
-  <>
-    <header className="bg-gray-900 text-white py-4 text-center">
-      <h1 className="text-xl font-semibold">My Portfolio</h1>
-    </header>
-    <main>
-      <Home />
-    </main>
-    <footer className="bg-gray-900 text-white text-center py-4">
-      <p>&copy; 2025 Job Wayne Otieno. All rights reserved.</p>
-    </footer>
-  </>
-);
-
-export default App;
+export default Home;

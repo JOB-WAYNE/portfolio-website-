@@ -1,5 +1,5 @@
 import React from "react"; // Removed unnecessary useState & useNavigate imports
-import "./Services.css"; // Ensure the file is correct, rename if needed
+import "./Service.css"; // Ensure the file is correct, rename if needed
 
 const skillsData = [
   {

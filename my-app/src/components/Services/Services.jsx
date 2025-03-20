@@ -1,5 +1,5 @@
 import React from "react"; // Removed unused useState & useNavigate imports
-import "./Services.css"; // Ensure this file exists
+import "./Service.css"; // Ensure this file exists
 
 const servicesData = [
   {
