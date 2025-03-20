@@ -1,32 +1,24 @@
 import React from "react";
-import "./style.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Projects from "./Components/Projects/Projects";
+import Services from "./Components/Services/Services";
+import Skills from "./Components/Skills/Skills";
 
-
-
-const Home = () => (
-  <section className="hero">
-    <div className="hero-content">
-      <h1>Job Wayne Otieno</h1>
-      <p className="subtitle">
-        Professional website developer, junior software developer and student at Moringa School.
-      </p>
-      <h2>Welcome to My Portfolio</h2>
-      <p className="intro">
-        Hi! I'm Job Wayne Otieno, a passionate junior software developer and web designer dedicated to creating engaging
-        and responsive websites.
-      </p>
-    </div>
-  </section>
-);
-
-const App = () => (
-  <>
-    <header></header>
-    <Home />
-    <footer>
-      <p>&copy; 2025 Job Wayne Otieno. All rights reserved.</p>
-    </footer>
-  </>
-);
+const App = () => {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/skills" element={<Skills />} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;
