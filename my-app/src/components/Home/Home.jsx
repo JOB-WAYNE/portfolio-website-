@@ -1,7 +1,5 @@
-import React, { useState } from "react"; // for state management 
-import { useNavigate } from "react-router-dom"; // for navigation 
+import React from "react"; // Removed unused useState & useNavigate imports
 import "./Home.css";
-
 
 const Home = () => (
   <section className="hero bg-gray-100 py-16 px-5 text-center">
@@ -24,7 +22,9 @@ const App = () => (
     <header className="bg-gray-900 text-white py-4 text-center">
       <h1 className="text-xl font-semibold">My Portfolio</h1>
     </header>
-    <Home />
+    <main>
+      <Home />
+    </main>
     <footer className="bg-gray-900 text-white text-center py-4">
       <p>&copy; 2025 Job Wayne Otieno. All rights reserved.</p>
     </footer>

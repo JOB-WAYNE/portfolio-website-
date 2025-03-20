@@ -1,13 +1,12 @@
-import React, { useState } from "react"; // for state management 
-import { useNavigate } from "react-router-dom"; // for navigation 
-import "./ About.css";
+import React from "react"; // Removed unused useState & useNavigate imports
+import "./About.css"; // Fixed incorrect import path
 
 const About = () => {
   return (
     <section className="hero bg-gray-100 py-16 px-5 text-center">
       <div className="max-w-2xl mx-auto">
         <img
-          src="images/avator.jpg"
+          src="/images/avator.jpg" // Ensure the image is in 'public/images/' or adjust the path
           alt="Job Wayne Otieno"
           className="w-40 h-40 mx-auto rounded-full shadow-lg object-cover"
         />
@@ -27,5 +26,3 @@ const About = () => {
 };
 
 export default About;
-
-  
